@@ -143,3 +143,24 @@ padding: 20px;
   text-decoration: none;
   color: #fff;
 }
+
+
+
+/* About Page */
+.main-header-inner {
+  background: url(../img/PB151879-2048x1033.jpeg) no-repeat 0 -80px/cover;
+  min-height: 400px;
+  position: relative;
+  color:#fff;
+}
+
+.showcase-inner{
+  padding-top: 80px;
+}
+
+/* Tabs */
+#tab1,#tab2,#tab3{text-align: justify;}
+.tabs .indicator{
+  background-color: #6a1b9a;
+}
+
