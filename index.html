@@ -15,11 +15,10 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="main-header">
-  
+  <header class="main-header" id="main-header-showcase">
     <div class="primary-overlay"></div>
     <div  id="fixed">
-     <nav class="transparent z-depth-0">
+     <nav class="transparent z-depth-0" id="nav-bar">
       <div class="container">
         <div class="nav-wrapper">
           <a href="#!" class="brand-logo heavy-text">ATRAP-DRC</a>
@@ -58,14 +57,14 @@
       <li><a href="contact.html"><i class="fa fa-address-book"></i> Contacts</a></li>
     </ul>
   <!-- Showcase -->
-    <div class="showcase py-3">
+    <div class="showcase">
       <div class="container">
         <div class="row">
           <div class="col s12 m10 offset-m1 center">
             <h5>Bienvenu Atrap DRC</h5>
             <h1>Build For The Future</h1>
             <p>Développer une nouvelle approche d’enquête malacologique et d’éducation à la santé, susceptible d’être menée par des non spécialistes.</p><br><br>
-            <a href="about.html" class="btn btn-large white info-text">Lire Plus</a>
+            <a href="about.html" class="btn btn-large waves-effect waves-light">Lire Plus</a>
           </div>
         </div>
       </div>
@@ -77,8 +76,8 @@
     <div class="container">
       <div class="row">
         <div class="col s12 m4">
-          <div class="card-panel">
-            <i class="fa fa-university fa-3x deep-purple-text text-darken-2"></i>
+          <div class="card-panel bg-info">
+            <i class="fa fa-university fa-3x teal-text text-darken-2"></i>
             <h5 class="grey-text text-darken-4">
               Education à la santé</h5>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos odio unde aspernatur dolorem illo natus ratione sapiente porro assumenda harum.</p>
@@ -93,8 +92,8 @@
           </div>
         </div>
         <div class="col s12 m4">
-          <div class="card-panel">
-            <i class="fa fa-address-book fa-3x deep-purple-text text-darken-2"></i>
+          <div class="card-panel bg-info">
+            <i class="fa fa-medkit fa-3x teal-text text-darken-2"></i>
             <h5 class="grey-text text-darken-4">
               Eco-épidémiologie</h5>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos odio unde aspernatur dolorem illo natus ratione sapiente porro assumenda harum.</p>
@@ -103,14 +102,136 @@
       </div>
     </div>
   </section>
+
+  <!-- Section: Info -->
+  <section class="section section-info grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h3>
+            <span class="info-text text-darken-1">Thèmes</span></h3>
+          <p class="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi tempora vitae provident, saepe cupiditate eos iusto a ipsum. Accusantium non ad exercitationem recusandae incidunt soluta corporis ab earum? Possimus distinctio laboriosam culpa aut neque beatae esse dolores at doloribus similique.</p>
+        </div>
+        <div class="col s12 m6">
+          <img src="./img/PB151813-scaled.jpeg" alt="" class="responsive-img" style="border-radius: 8px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="activity">
+    <!-- <div class="container"> -->
+    <h3 class="center ">Decouvrez Nos <span class="info-text text-darken-1">Activités</span></h3>
+      <div class="row">
+        <div class="col s12 m4 activity-left">
+          <div class="atelier-right cyan lighten-2">
+            <a href="#!" title="clicker et decouver"></i> ATELIER</a>
+          </div>
+          <div class="coordination-right green accent-1">
+            <a href="#!" title="clicker et decouver">COORDINATION</a>
+          </div>
+          <div class="missions-right blue-grey lighten-3">
+            <a href="#!" title="clicker et decouver">MISSION DE TERRAIN</a>
+          </div>
+        </div>
+        <div class="col s12 m8 activity-right">
+          <div class="atelier cyan lighten-2">
+            <h5 >Atelier</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci, vitae tenetur repellat, dolores cumque labore maiores possimus pariatur maxime modi quibusdam est error rerum ratione quaerat blanditiis eligendi officiis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deleniti, error iusto provident labore, dolorem ut aperiam veritatis doloribus cupiditate voluptate impedit aut! Incidunt nisi magnam ratione, perspiciatis voluptatibus voluptatem!</p>
+            <a href="about.html" class="btn waves-effect waves-light deep-purple lighten-2 ">Lire Plus</a>
+          </div>
+          <div class="coordination green accent-1">
+            <h5 >Coordination</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci, vitae tenetur repellat, dolores cumque labore maiores possimus pariatur maxime modi quibusdam est error rerum ratione quaerat blanditiis eligendi officiis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deleniti, error iusto provident labore, dolorem ut aperiam veritatis doloribus cupiditate voluptate impedit aut! Incidunt nisi magnam ratione, perspiciatis voluptatibus voluptatem!</p>
+            <a href="about.html" class="btn waves-effect waves-light pink lighten-3">Lire Plus</a>
+          </div>
+          <div class="missions-de-terrain blue-grey lighten-3">
+            <h5 >Missions de terrain</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci, vitae tenetur repellat, dolores cumque labore maiores possimus pariatur maxime modi quibusdam est error rerum ratione quaerat blanditiis eligendi officiis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deleniti, error iusto provident labore, dolorem ut aperiam veritatis doloribus cupiditate voluptate impedit aut! Incidunt nisi magnam ratione, perspiciatis voluptatibus voluptatem!</p>
+            <a href="about.html" class="btn waves-effect waves-light red lighten-1">Lire Plus</a>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+  </section>
+
+   <!-- Section: Testimonial -->
+   <section class="section section-testimonial grey lighten-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3 class="center">Publications</h3>
+          <div class="carousel carousel-slider center">
+            <div class="carousel-item" href="#one!">
+              <h2>Publication 1</h2>
+              <p class="flow-text">La cérémonie officielle du lancement du projet ATRAP en RDC a eu lieu le 15 novembre 2019 dans la salle Ngwete du secrétariat général à la santé à Kinshasa. Le
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, possimus? Reiciendis, cupiditate et fugit illo qui aliquid assumenda possimus, facere recusandae iure, vero ipsam cum aliquam rerum explicabo modi in.</p>
+            </div>
+            <div class="carousel-item" href="#two!">
+              <h2>Publication 2</h2>
+              <p class="flow-text">La cérémonie officielle du lancement du projet ATRAP en RDC a eu lieu le 15 novembre 2019 dans la salle Ngwete du secrétariat général à la santé à Kinshasa. Le
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit maxime fugit et quidem nesciunt officia sunt enim qui ducimus! Mollitia deserunt itaque optio ipsa impedit tenetur, veritatis fuga at!</p>
+            </div>
+            <div class="carousel-item" href="#three!">
+              <h2>Publication 3</h2>
+              <p class="flow-text">La cérémonie officielle du lancement du projet ATRAP en RDC a eu lieu le 15 novembre 2019 dans la salle Ngwete du secrétariat général à la santé à Kinshasa. Le
+              </p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam repellat animi culpa a aliquam ducimus explicabo omnis, odit fugiat nesciunt quam, perspiciatis quo, delectus reprehenderit iure. Provident unde autem dolores!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Static Arrow up -->
+  <div class="static-arrow">
+    <a class="grey-text text-lighten-4 secondary-content" href="#main-header-showcase"><i class="fas fa-arrow-circle-up fa-3x teal-text darken-4"></i></a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer bg-primary lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Donneesz moi quelques info a mettre ici</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cumque voluptates fuga, vitae laudantium architecto. Corrupti iure assumenda sint praesentium.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Suivez-Nous Sur</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="center">
+          <span>Copyright &copy; 2020 ATRAP-DRC</span><br>
+         Created by: <a href="https://wtscc.netlify.com/index.html"> WTSCC</a>
+          </div>
+        </ul>
+     
+     
+      </div>
+    </div>
+  </footer>
+
+
+
+
   
-
- 
-
-
-
-
-
 
    <!--Import jQuery before materialize.js-->
    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -119,3 +240,6 @@
   
 </body>
 </html>
+
+
+ 

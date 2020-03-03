@@ -1,4 +1,7 @@
 /* Utils */
+body{
+  position: relative;
+}
 .bg-primary{
   background: #028484;
 }
@@ -6,6 +9,10 @@
   background: #343a40;
   color: #f8f9fa;
 }
+.bg-info{
+  background:#17a2b8 ;
+}
+
 .primary-text{
  color:#028484 ; 
 }
@@ -29,9 +36,18 @@
 
 
 
+/* Static arrow up */
+.static-arrow{
+  position: fixed;
+  top:663px ;
+  right: 25px;
+  display: none;
+}
+/******************* Home Page *********************/
+/* Header */
 .main-header {
   background: url(../img/PB151879-2048x1033.jpeg) no-repeat center center/cover;
-  min-height: 650px;
+  min-height: 600px;
   position: relative;
   color:#fff;
 }
@@ -67,3 +83,63 @@
   font-weight: bold;
   font-size: 16px;
 } 
+
+/* section-icons */
+.section-icons{
+  margin-top: 20px;
+}
+
+/* Section activity */
+.activity{
+padding: 20px;
+}
+.activity h3{
+  padding-bottom: 20px;
+}
+.activity-left{
+  padding: 30px;
+}
+
+.activity-left div{
+  margin: 15px 0;
+  border-radius: 30px;
+}
+
+.activity-left a{
+  text-decoration: none;
+  display: block;
+  padding: 20px 30px;
+  text-align: center;
+  color: #343a40;
+}
+
+
+.activity-right div{
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.activity-right .atelier{
+   display: block;
+}
+.activity-right .coordination{
+   display: none;
+}
+.activity-right .missions-de-terrain{
+   display: none;
+}
+
+
+
+
+
+/* Footer */
+.footer-copyright{
+  font-size: 20px;
+  color: #fff!important;
+}
+.footer-copyright a {
+  text-decoration: none;
+  color: #fff;
+}
