@@ -7,6 +7,7 @@
        $('.tabs').tabs();
        $('.modal').modal();
        $('input#input_text, textarea#textarea2').characterCounter();
+       $('.scrollspy').scrollSpy();
     
 
     });
