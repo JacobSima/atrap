@@ -5,6 +5,8 @@
        $('.sidenav').sidenav();
        $('.carousel.carousel-slider').carousel({ fullWidth: true });
        $('.tabs').tabs();
+       $('.modal').modal();
+       $('input#input_text, textarea#textarea2').characterCounter();
     
 
     });
